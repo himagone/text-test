@@ -1,0 +1,15 @@
+site_name: Geolonia Handbook
+
+copyright: Copyright &copy; 2024 Geolonia Inc.
+
+theme:
+  name: material
+  language: ja
+  custom_dir: material/overrides
+  palette:
+    primary: white
+  features:
+    - search.suggest
+plugins:
+  - offline
+  - search
