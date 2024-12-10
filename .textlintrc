@@ -11,9 +11,6 @@
           "ja-no-weak-phrase": true,
           "no-unmatched-pair": true,
           "no-doubled-conjunction": true,
-          "no-doubled-joshi": {
-            "min_interval": 1
-          },
           "ja-no-abusage": true
         }
     }
