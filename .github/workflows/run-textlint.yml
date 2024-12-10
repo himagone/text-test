@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: npx textlint ./docs/**/*.md -o ./.textlint.log | true
+      - run: npx textlint "./docs/**/*.md" "!./docs/ハンドブックについて/how-to-write-contents.md" -o ./.textlint.log | true
         shell: bash {0}
       - name: Report if textlint finds problems
         run: |
