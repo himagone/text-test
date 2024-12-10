@@ -1,8 +1,5 @@
 {
     "rules": {
-        "preset-jtf-style": {
-            "3.1.1.全角文字と半角文字の間": false,
-        }
         "preset-ja-technical-writing": {
           "no-mix-dearu-desumasu": {
             "preferInHeader": "",
